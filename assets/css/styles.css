@@ -1,6 +1,7 @@
 /*==================== GOOGLE FONTS ====================*/
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Hubballi:wght@400;500;600&display=swap");
 
 /* ============= * ================== */
 
@@ -10,6 +11,8 @@
 	margin: 0;
 	padding: 0;
 }
+
+
 
 /* PRELOADER */
 
@@ -65,7 +68,7 @@
 
 
 .ctn-preloader .loader-section {
-  background-color: #191627;
+  background-color: #211627;
   height: 100%;
 	position: fixed;
   top: 0;
@@ -135,7 +138,7 @@
 	--header-height: 3rem;
 	/*========== Colors ==========*/
 	/* Change favorite color */
-	--hue-color: 250;
+	--hue-color: 280;
 	/*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 	/* HSL color mode */
 	--first-color: hsl(var(--hue-color), 69%, 61%);
@@ -307,6 +310,8 @@ img {
 .nav__toggle {
 	color: var(--title-color);
 	font-weight: var(--font-semi-bold);
+	font-family: Hubballi;
+	font-size: x-large;
 }
 .nav__logo:hover {
 	color: var(--first-color);
@@ -546,14 +551,14 @@ a:hover i.uil.uil-message.button__icon {
 	display: block;
 	background-color: var(--first-color);
 }
-.skills__html {
-	width: 70%;
+.skills__gaming {
+	width: 90%;
 }
-.skills__css {
-	width: 80%;
+.skills__studies {
+	width: 84%;
 }
-.skills__js {
-	width: 50%;
+.skills__sports {
+	width: 87%;
 }
 .skills__list {
 	row-gap: 1.5rem;
